@@ -11,7 +11,10 @@ import { AppComponent } from './app.component';
 import { BodyComponent } from './components/body/body.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
-import { HomeComponent } from './components/home/home.component';
+import { DevicesComponent } from './components/devices/devices.component';
+import { ReportsComponent } from './components/reports/reports.component';
+import { SuggestionsComponent } from './components/suggestions/suggestions.component';
+import { AnnouncementsComponent } from './components/announcements/announcements.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { HomeComponent } from './components/home/home.component';
     BodyComponent,
     FooterComponent,
     NavbarComponent,
-    HomeComponent
+    DevicesComponent,
+    ReportsComponent,
+    SuggestionsComponent,
+    AnnouncementsComponent
   ],
   imports: [
     BrowserModule,
