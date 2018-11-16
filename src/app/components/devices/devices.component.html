@@ -1,3 +1,13 @@
-<p>
-  devices works!
-</p>
+<div class="card-columns">
+  <div class="card" *ngFor="let device of devices">
+    <img class="card-img-top" [src]="device.urlImage" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Device: {{device.name}}</h5>
+      <p class="card-text">OS: {{device.os}}</p>
+      <p class="card-text">Version: {{device.version}}</p>
+      <p class="card-text">Type: {{device.type}}</p>
+      <button type="button" class="btn btn-outline-primary">Request</button>
+      <p class="card-text"><small class="text-muted">In use by: Meliwis</small></p>
+    </div>
+  </div>
+</div>

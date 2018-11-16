@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { APP_ROUTING } from './app.routes';
 
 // Services
+import { DevicesService } from './services/devices.service';
 
 // Components
 import { AppComponent } from './app.component';
@@ -31,7 +32,9 @@ import { AnnouncementsComponent } from './components/announcements/announcements
     BrowserModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [
+    DevicesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
