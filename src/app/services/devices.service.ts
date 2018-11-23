@@ -9,7 +9,6 @@ export class DevicesService {
       os:"Android",
       version:"8.0.0",
       type: "Phone",
-
       urlImage:"https://www.valuewalk.com/wp-content/uploads/2017/11/Galaxy-S9-Render.jpg"
     },
     {
@@ -25,7 +24,43 @@ export class DevicesService {
       version:"11",
       type: "Tablet",
       urlImage:"https://store.storeimages.cdn-apple.com/4667/as-images.apple.com/is/image/AppleInc/aos/published/images/r/fb/rfb/ipad/rfb-ipad-pro10in-spacegray-wifi-2017?wid=572&hei=572&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1513118526233"
-    }
+    },
+    {
+      name:"Galaxy S6",
+      os:"Android",
+      version:"7.1.1",
+      type: "Phone",
+      urlImage:"https://www.valuewalk.com/wp-content/uploads/2017/11/Galaxy-S9-Render.jpg"
+    },
+    {
+      name:"Galaxy S6",
+      os:"Android",
+      version:"7.1.1",
+      type: "Phone",
+      urlImage:"https://www.valuewalk.com/wp-content/uploads/2017/11/Galaxy-S9-Render.jpg"
+    },
+    {
+      name:"Galaxy S6",
+      os:"Android",
+      version:"7.1.1",
+      type: "Phone",
+      urlImage:"https://www.valuewalk.com/wp-content/uploads/2017/11/Galaxy-S9-Render.jpg"
+    },
+    {
+      name:"Galaxy S6",
+      os:"Android",
+      version:"7.1.1",
+      type: "Phone",
+      urlImage:"https://www.valuewalk.com/wp-content/uploads/2017/11/Galaxy-S9-Render.jpg"
+    },
+    {
+      name:"Galaxy S6",
+      os:"Android",
+      version:"7.1.1",
+      type: "Phone",
+      urlImage:"https://www.valuewalk.com/wp-content/uploads/2017/11/Galaxy-S9-Render.jpg"
+    },
+
   ]
   constructor() {
     console.log("service started");
